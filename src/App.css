@@ -1,18 +1,5 @@
-.App {
+.title {
+  width: 100%;
   text-align: center;
-}
-
-.App-header {
-  background-color: #22c28f;
-  height: 300px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+  margin-bottom: 50px;
 }

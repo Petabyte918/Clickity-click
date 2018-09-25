@@ -1,18 +1,30 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import FriendCard from "./components/FriendCard";
+import Wrapper from "./components/Wrapper";
+import friends from "./friends.json";
+import "./App.css";
 
-class App extends Component {
+class App extends React.Component {
+
+  state = {friends};
+
+  removeX(id) {
+
+
+  }
+
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Clickity-click Game</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+  return <Wrapper>
+    <h1 className="title">Friends List</h1>
+    {this.state.friends.map(item => (
+      <FriendCard
+        name={item.name}
+        image={item.image}
+        occupation={item.occupation}
+        location={item.location}
+      />
+    ))}
+  </Wrapper>
   }
 }
 
