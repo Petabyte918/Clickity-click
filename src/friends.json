@@ -1,86 +1,62 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/8/84/AHS_Coven_-_Photoshoot_-_Kyle_Spencer_%28infobox%29.jpg/revision/latest?cb=20170918132515",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "name": "Kyle Spencer",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/8/84/AHS_Coven_-_Photoshoot_-_Kyle_Spencer_%28infobox%29.jpg/revision/latest?cb=20170918132515"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/b/bd/S3_005.jpg/revision/latest?cb=20170918132636",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Cordelia Foxx",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/b/bd/S3_005.jpg/revision/latest?cb=20170918132636"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/e/eb/FIONA_GOODE.jpg/revision/latest?cb=20170918132149",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "Fiona Goode",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/e/eb/FIONA_GOODE.jpg/revision/latest?cb=20170918132149"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/f/f0/CovenMarieLaveau.jpg/revision/latest?cb=20160404211247",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "name": "Marie Laveau",
+    "image": "https://i.pinimg.com/474x/95/7d/14/957d140748754617ab371ee049121c5a--american-horror-stories-american-horror-story-seasons.jpg"
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/4/46/Ddc301d3bf63d8ee4c52c1be3b052cfc.jpg/revision/latest?cb=20170918132223",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "name": "Delphine LaLaurie",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/4/46/Ddc301d3bf63d8ee4c52c1be3b052cfc.jpg/revision/latest?cb=20170918132223"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "name": "Nan",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/b/b2/NanO.jpg/revision/latest?cb=20170910231327"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "Queenie",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/0/07/Queenie-Coven-Photoshoot-2013.jpg/revision/latest/scale-to-width-down/1000?cb=20180903142142"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "name": "Zoe Benson",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/1/13/Taissa-farmiga-at-american-horror-story-coven-season-8008a3d830514a3893b1825d28e340dd-large-1658713.jpg/revision/latest/scale-to-width-down/1000?cb=20170918132600"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
-    "location": "California"
+    "name": "Myrtle Snow",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/e/e1/17c34562d48c8d5b6d32ce1c2dfa120a--american-horror-story-seasons-american-horror-stories.jpg/revision/latest?cb=20170918132528"
   },
   {
     "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "name": "Misty Day",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/6/66/Misty005.jpg/revision/latest/scale-to-width-down/350?cb=20170918132454"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "name": "Spalding",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/5/55/Spalding002.jpg/revision/latest/scale-to-width-down/1000?cb=20170918132325"
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "name": "Madison Montgomery",
+    "image": "https://vignette.wikia.nocookie.net/americanhorrorstory/images/8/8f/AHS_Coven_Promo_Still_-_Madison_Montgomery.jpg/revision/latest/scale-to-width-down/1000?cb=20170918132349"
   }
 ]
