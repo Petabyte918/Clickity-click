@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-family: 'Eater', cursive;
+    color: #e5e5e5;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 6px 6px 12px #ab3700;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 2.00px; 
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-family: 'Miniver', cursive;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 6px 6px 12px #ab3700;
+    margin-bottom: 20px;
+}
+
+.score {
+    font-family: 'Eater', cursive;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 6px 6px 12px #ab3700;
+    letter-spacing: 2px;
+}
+
+.highscore {
+    font-family: 'Eater', cursive;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 6px 6px 12px #ab3700;
+    letter-spacing: 2px;
+}

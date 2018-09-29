@@ -1,10 +1,10 @@
 import React from "react";
-import "./FriendCard.css";
+import "./CovenCard.css";
 
-const FriendCard = props => (
+const CovenCard = props => (
   <div className="card">
       <img alt={props.name} src={props.image} />
   </div>
 );
 
-export default FriendCard;
+export default CovenCard;

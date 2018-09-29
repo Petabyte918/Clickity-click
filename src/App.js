@@ -1,27 +1,21 @@
-import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import React from "react";
+import CovenCard from "./components/CovenCard";
 import Wrapper from "./components/Wrapper";
-import friends from "./friends.json";
+import Header from "./components/Header";
+import covencast from "./covencast.json";
 import "./App.css";
 
 class App extends React.Component {
 
-  state = {friends};
-
-  removeX(id) {
-
-
-  }
+  state = {covencast};
 
   render() {
   return <Wrapper>
-    <h1 className="title">Friends List</h1>
-    {this.state.friends.map(item => (
-      <FriendCard
+    <Header>Clickity-Click!</Header>
+    {this.state.covencast.map(item => (
+      <CovenCard
         name={item.name}
         image={item.image}
-        occupation={item.occupation}
-        location={item.location}
       />
     ))}
   </Wrapper>

@@ -1,14 +1,14 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 195px;
+  height: 170px;
   margin: 1rem;
   position: relative;
-  width: 200px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  width: 175px;
+  box-shadow: 0 6px 12px #ab3700, 0 6px 12px #ab3700;
   overflow: hidden;
 }
 
 img {
-  width: 200px;
+  width: 175px;
 }
