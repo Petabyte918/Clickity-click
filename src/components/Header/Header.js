@@ -6,7 +6,8 @@ const Header = props => (
         <div className="title">{props.children}</div>
         <div className="subtitle">featuring the cast of AHS: Coven</div>
         <div className="scores">
-            Score: {props.userScore}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;High Score: {props.highScore} 
+            Score: {props.userScore}<br />
+            High Score: {props.highScore} 
         </div>
         <div className="message">
             {props.message}

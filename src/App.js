@@ -32,6 +32,8 @@ class App extends React.Component {
 
   clickCounter = id => {
 
+    this.setState({message: "Don't click on same image more than once!"});
+
     this.state.covencast.find((character, i) => {
 
       if (character.id === id) {
