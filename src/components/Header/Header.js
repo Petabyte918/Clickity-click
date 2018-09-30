@@ -5,12 +5,11 @@ const Header = props => (
     <div className="header">
         <div className="title">{props.children}</div>
         <div className="subtitle">featuring the cast of AHS: Coven</div>
-        <div className="score">
-            Score:
-            {props.userScore}   
+        <div className="scores">
+            Score: {props.userScore}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;High Score: {props.highScore} 
         </div>
-        <div className="highscore">
-            High Score: {props.highScore}
+        <div className="message">
+            {props.message}
         </div>
     </div>
 );

@@ -14,40 +14,53 @@ class App extends React.Component {
     highScore: 0
   };
 
-  componentDidMount() {
-
-  }
-
-  gameOver = () => {
+  restartGame = () => {
     if (this.state.userScore > this.state.highScore) {
       this.setState({ highScore: this.state.userScore}, function() {
         console.log(this.state.highScore);
       });
     }
-    this.state.covencast.forEach( covencast => {
-      covencast.count = 0;
+
+    this.state.covencast.forEach( character => {
+      character.count = 0;
     });
-    alert(`Game Over! \nscore: ${this.state.userScore}`);
+
+    this.setState({message: "Game Over!  Try again!"});
     this.setState({userScore: 0});
+    return true;
   }
 
   clickCounter = id => {
-    this.state
+
+    this.state.covencast.find((character, i) => {
+
+      if (character.id === id) {
+
+        if(covencast[i].count === 0) {
+          covencast[i].count = covencast[i].count + 1;
+          this.setState({ userScore: this.state.userScore + 1}, function() {
+            console.log(this.state.userScore);
+          });
+
+          this.state.covencast.sort(() => Math.random() - 0.5)
+
+          return true;
+
+        }
+        
+        else {
+          this.restartGame();
+        }
+      }
+    });
   }
-
-
-
-
-
-
-
 
   render() {
   return <Wrapper>
-    <Header>Clickity-Click!</Header>
+    <Header userScore={this.state.userScore} highScore={this.state.highScore} message={this.state.message}>Clickity-Click!</Header>
     {this.state.covencast.map(character => (
       <CovenCard
-        clickCounter={this.clickCount}
+        clickCounter={this.clickCounter}
         id={character.id}
         name={character.name}
         image={character.image}
