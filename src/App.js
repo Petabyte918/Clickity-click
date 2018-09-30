@@ -7,15 +7,51 @@ import "./App.css";
 
 class App extends React.Component {
 
-  state = {covencast};
+  state = {
+    message: "Click an image to start!",
+    covencast,
+    userScore: 0,
+    highScore: 0
+  };
+
+  componentDidMount() {
+
+  }
+
+  gameOver = () => {
+    if (this.state.userScore > this.state.highScore) {
+      this.setState({ highScore: this.state.userScore}, function() {
+        console.log(this.state.highScore);
+      });
+    }
+    this.state.covencast.forEach( covencast => {
+      covencast.count = 0;
+    });
+    alert(`Game Over! \nscore: ${this.state.userScore}`);
+    this.setState({userScore: 0});
+  }
+
+  clickCounter = id => {
+    this.state
+  }
+
+
+
+
+
+
+
 
   render() {
   return <Wrapper>
     <Header>Clickity-Click!</Header>
-    {this.state.covencast.map(item => (
+    {this.state.covencast.map(character => (
       <CovenCard
-        name={item.name}
-        image={item.image}
+        clickCounter={this.clickCount}
+        id={character.id}
+        name={character.name}
+        image={character.image}
+        key={character.id}
       />
     ))}
   </Wrapper>

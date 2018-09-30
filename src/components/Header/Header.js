@@ -7,10 +7,10 @@ const Header = props => (
         <div className="subtitle">featuring the cast of AHS: Coven</div>
         <div className="score">
             Score:
-            {props.score}   
+            {props.userScore}   
         </div>
         <div className="highscore">
-            High Score: {props.highscore}
+            High Score: {props.highScore}
         </div>
     </div>
 );
